@@ -1,4 +1,27 @@
-baseURL = 'https://circhetta.com/'
-languageCode = 'en-us'
-title = 'Francesco Circhetta'
-theme = 'PaperMod'
+baseURL = "https://circhetta.com/"
+languageCode = "en-us"
+title = "Francesco Circhetta"
+theme = "PaperMod"
+
+enableEmoji = true
+
+[params.homeInfoParams]
+Title = "Hi there 👋🏻"
+Content = """
+- Nuclear Engineering student at [Politecnico di Milano](https://polimi.it)
+- Secretary and Former President of [PoliEdro](https://poliedro-polimi.it)
+- Junior Computer Engineer
+- LGBTI+ rights activist
+"""
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/nuclearforg"
+
+[[params.socialIcons]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/francescocirchetta/"
+
+[[params.socialIcons]]
+name = "telegram"
+url = "https://t.me/nuclearforg"
