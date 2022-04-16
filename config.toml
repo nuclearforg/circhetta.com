@@ -5,14 +5,27 @@ theme = "PaperMod"
 
 enableEmoji = true
 
-[params.homeInfoParams]
-Title = "Hi there 👋🏻"
-Content = """
-- Nuclear Engineering student at [Politecnico di Milano](https://polimi.it)
-- Secretary and Former President of [PoliEdro](https://poliedro-polimi.it)
-- Junior Computer Engineer
-- LGBTI+ rights activist
-"""
+[params]
+env = "production"
+description = "Francesco Circhetta's personal website"
+author = "Francesco Circhetta"
+
+[languages.en]
+languageName = "English"
+weight = 1.0
+
+[[languages.en.menu.main]]
+name = "About me"
+url = "about"
+weight = 5.0
+
+[params.profileMode]
+enabled = true
+title = "@nuclearforg"
+imageUrl = "img/me.jpg"
+imageTitle = "that's me"
+imageHeight = 250
+imageWidth = 250
 
 [[params.socialIcons]]
 name = "github"
